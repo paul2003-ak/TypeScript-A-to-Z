@@ -10,6 +10,9 @@
     "module": "nodenext",
     "target": "esnext",
     "types": [],
+
+    "experimentalDecorators": true, // <--- ADD THIS
+    "emitDecoratorMetadata": true ,  // <--- Usually needed too
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
